@@ -21,6 +21,10 @@
   height: 90px;
   z-index: 10;
 }
+.header-bg{
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.5s;
+}
 @media screen and (max-width: 1040px) {
   .nav-menu {
     flex-direction: column;
