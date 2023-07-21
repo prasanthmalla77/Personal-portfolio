@@ -61,7 +61,7 @@ const ProjectWithOutFooter = () => {
   ];
 
   return (
-    <div>
+  
       <div className="projects">
         <h2 className="section-title">Projects</h2>
         <div className="projects-container">
@@ -86,7 +86,7 @@ const ProjectWithOutFooter = () => {
           ))}
         </div>
       </div>
-    </div>
+  
   );
 };
 

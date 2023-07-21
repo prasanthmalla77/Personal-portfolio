@@ -5,6 +5,7 @@ import HeroImg from "../Components/HeroImg";
 import Footer from "../Components/Footer";
 import Background from "../Components/Background";
 import ProjectWithOutFooter from "./ProjectWithOutFooter";
+import Certification from "./CertificationWithoutFooter";
 const Home = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const Home = () => {
       <Navbar />
       <HeroImg />
       <ProjectWithOutFooter />
+      <Certification />
       <Footer />
     </div>
   );
