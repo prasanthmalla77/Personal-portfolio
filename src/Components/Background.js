@@ -12,7 +12,7 @@ const Background = () => {
         },
       },
       color: {
-        value: ["#2EB67D", "#ECB22E", "#E01E5B", "#36C5F0"],
+        value: ["#ffc61a", "#ffffff"],
       },
       shape: {
         type: "circle",
@@ -21,7 +21,7 @@ const Background = () => {
         value: 1,
       },
       size: {
-        value: { min: 1, max: 8 },
+        value: { min: 1, max: 4 },
       },
       links: {
         enable: true,
