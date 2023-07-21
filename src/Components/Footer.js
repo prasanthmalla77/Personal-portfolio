@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaGit,
 } from "react-icons/fa";
+const facebookLink = "https://www.facebook.com/prasanth.cherry.927";
 const Footer = () => {
   return (
     <div className="footer">
@@ -20,28 +21,22 @@ const Footer = () => {
               <p>Tekkali, Srikakulam </p>
               <p>532201</p>
             </div>
-            
           </div>
-          
+
           <div className="phone">
-            
-              
-              <FaPhone
-                size={30}
-                style={{ color: "white", marginRight: "2rem" }}
-              />
-              <p>+91 9491920031 </p>
-            
+            <FaPhone
+              size={30}
+              style={{ color: "white", marginRight: "2rem" }}
+            />
+            <p>+91 9491920031 </p>
           </div>
 
           <div className="email">
-            
-              <FaMailBulk
-                size={30}
-                style={{ color: "white", marginRight: "2rem" }}
-              />
-              <p>prasanthmalla77@gmail.com</p>
-            
+            <FaMailBulk
+              size={30}
+              style={{ color: "white", marginRight: "2rem" }}
+            />
+            <p>prasanthmalla77@gmail.com</p>
           </div>
         </div>
         <div className="right">
@@ -49,15 +44,32 @@ const Footer = () => {
           <p>Srikakulam,Andhra Pradesh,India </p>
           <p>532201</p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
-            <FaGit size={30} style={{ color: "white", marginRight: "1rem" }} />
-            <FaLinkedin
-              size={30}
-              style={{ color: "white", marginRight: "1rem" }}
-            />
+            <a href={facebookLink} target="_blank" rel="noopener noreferrer">
+              <FaFacebook
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </a>
+            <a
+              href="https://github.com/prasanthmalla77"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGit
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/naga-venkata-prasanth-naidu-malla-86ba3223b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
