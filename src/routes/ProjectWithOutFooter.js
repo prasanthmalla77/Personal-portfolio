@@ -4,6 +4,8 @@ import ReactionTesterImage from "../assets/ReactionTester.png";
 import StudentFeedbackForm from "../assets/StudentFeedbackForm.png";
 import FatherResume from "../assets/FatherResume.png";
 import Twitter from "../assets/TwitterClone.png";
+import ToDo from '../assets/ToDo.png'
+import Quote from '../assets/AutomaticQuoteGenerator.png'
 const ProjectWithOutFooter = () => {
   // Sample project data, replace this with your own project details
   const projects = [
@@ -39,6 +41,22 @@ const ProjectWithOutFooter = () => {
       imageUrl: Twitter, // Use the imported image here
       projectUrl: "https://github.com/prasanthmalla77/twitter_clone",
       Live: "https://super-donut-ae36d6.netlify.app/",
+    },
+    {
+      title: "To Do List",
+      description:
+        "I have developed an interactive To-Do List project using HTML, CSS, and JavaScript, which I deployed using Netlify. The application allows users to create and manage their daily tasks in an organized manner. It features a user-friendly interface where tasks can be added, marked as completed, and deleted. The project's seamless deployment on Netlify ensures that users can access and use the To-Do List from anywhere with internet access. It's a practical and efficient tool for users to stay organized and keep track of their tasks effortlessly.",
+      imageUrl: ToDo, // Use the imported image here
+      projectUrl: "https://github.com/prasanthmalla77/TASK-LIST-USING-JS",
+      Live: "https://imaginative-daffodil-5751b1.netlify.app/",
+    },
+    {
+      title: "Automatic Quote Generator",
+      description:
+        "I have developed an Automatic Quote Generator project using HTML, CSS, and JavaScript, which is deployed using Netlify. The application dynamically generates quotes for users, providing an interactive and enjoyable experience. It leverages the power of HTML for structuring the content, CSS for styling the layout, and JavaScript for generating random quotes and displaying them on the screen. The project is hosted on Netlify, making it easily accessible to users worldwide. With this application, users can discover and explore an array of quotes effortlessly, enhancing their daily inspiration and motivation.",
+      imageUrl: Quote, // Use the imported image here
+      projectUrl: "https://github.com/prasanthmalla77/random_quote_generator",
+      Live: "https://aquamarine-kheer-17ecdd.netlify.app/",
     },
   ];
 
