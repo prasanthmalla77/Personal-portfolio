@@ -26,6 +26,7 @@
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background: rgb(248, 217, 15);
+
   position: relative;
   transition: transform 0.3s ease;
 }
@@ -82,10 +83,13 @@
 /* Responsive Styling */
 @media (max-width: 768px) {
   .projects-container {
-    grid-template-columns: 1fr; /* On smaller screens, display projects in a single column */
+    grid-template-columns: 1fr;
+    /* On smaller screens, display projects in a single column */
   }
 
   .project {
-    margin-bottom: 2rem; /* Add some spacing between projects in the single column layout */
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    width: 80%;
   }
 }

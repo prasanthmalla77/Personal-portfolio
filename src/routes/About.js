@@ -2,11 +2,13 @@ import React from "react";
 import "./About.css";
 import mine from "../assets/mine.jpg";
 import Navbar from "../Components/Navbar"; // Import the CSS file for styling
+import Background from "../Components/Background";
 
 const About = () => {
   return (
     <div>
       <Navbar />
+      <Background />
 
       <div className="contact-page">
         <div className="contact-container">

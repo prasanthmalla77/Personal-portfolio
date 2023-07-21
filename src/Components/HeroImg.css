@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: center;
   object-fit: cover;
+  opacity: 0;
 }
 .mask::after {
   content: "";
@@ -18,7 +19,7 @@
   top: 0;
   left: 0;
   background-color: #000;
-  opacity: 0.8;
+  opacity: 0.4;
 }
 .hero {
   height: 100%;

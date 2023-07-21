@@ -10,8 +10,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-particles": "^2.11.0",
     "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
+    "three": "^0.154.0",
+    "tsparticles": "^2.11.0",
+    "vanta": "^0.5.22",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

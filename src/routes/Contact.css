@@ -1,6 +1,7 @@
 .contact-page {
   padding: 4rem 0;
   background-color: black;
+
   color: #333;
 }
 
@@ -12,9 +13,8 @@
   grid-gap: 2rem;
 }
 .contact-page {
-  /* ... your existing styles ... */
-  opacity: 0; /* Initially hide the text */
-  transition: opacity 1s ease; /* Add a transition effect for the opacity property */
+  opacity: 0;
+  transition: opacity 0.5 1s ease;
 }
 
 .contact-page.show-text {

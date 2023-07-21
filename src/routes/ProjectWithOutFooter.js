@@ -1,12 +1,13 @@
 import React from "react";
 import "./Project.css";
-import ReactionTesterImage from '../assets/ReactionTester.png';
+import ReactionTesterImage from "../assets/ReactionTester.png";
 const ProjectWithOutFooter = () => {
   // Sample project data, replace this with your own project details
   const projects = [
     {
       title: "Project 1",
-      description: "The Reaction Tester is an interactive web application designed to test users' reaction speed. When the user clicks on a circle displayed on the screen, the application instantly provides an alert with the time taken to click. It offers an engaging and fun way for users to challenge themselves, measure their reaction time, and strive for improved performance.",
+      description:
+        "The Reaction Tester is an interactive web application designed to test users' reaction speed. When the user clicks on a circle displayed on the screen, the application instantly provides an alert with the time taken to click. It offers an engaging and fun way for users to challenge themselves, measure their reaction time, and strive for improved performance.",
       imageUrl: ReactionTesterImage, // Use the imported image here
       projectUrl:
         "https://github.com/prasanthmalla77/ReactionTesterUsingJavascript",
