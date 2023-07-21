@@ -1,12 +1,9 @@
 import React from "react";
 import "./Project.css"; 
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";// Import the CSS file for styling
 
-
-const Projects = () => {
+const ProjectWithOutFooter = () => {
   // Sample project data, replace this with your own project details
-  const projects = [
+  const ProjectWithOutFooter = [
     {
       title: "Project 1",
       description: "This is the description for Project 1.",
@@ -48,11 +45,10 @@ const Projects = () => {
 
   return (
     <div>
-    <Navbar/>
     <div className="projects">
       <h2 className="section-title">Projects</h2>
       <div className="projects-container">
-        {projects.map((project, index) => (
+        {ProjectWithOutFooter.map((project, index) => (
           <div className="project" key={index}>
             <img src={project.imageUrl} alt={project.title} />
             <h3>{project.title}</h3>
@@ -61,15 +57,15 @@ const Projects = () => {
               View Project
             </a>
             <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
-              Live Project
+              Live Link
             </a>
           </div>
         ))}
       </div>
       
     </div>
-    <Footer/></div>
+    </div>
   );
 };
 
-export default Projects;
+export default ProjectWithOutFooter;

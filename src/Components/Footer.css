@@ -21,6 +21,17 @@
   justify-content: flex-start;
 }
 
+.email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.email p {
+  margin: 0;
+  padding-left: 1rem; /* Add padding to separate icon from text */
+  line-height: 1.6;
+}
 .location {
   display: flex;
   align-items: center;
@@ -32,8 +43,19 @@
   padding-left: 1rem; /* Add padding to separate icon from text */
   line-height: 1.6;
 }
+.phone{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
 
-.phone h4,
+.phone p {
+  margin: 0;
+  padding-left: 1rem; /* Add padding to separate icon from text */
+  line-height: 1.6;
+}
+
+
 .email h4 {
   margin: 0; /* Increase font size for better visibility */
   display: flex;
@@ -56,4 +78,31 @@
   display: flex;
   align-items: center;
   margin-top: 1rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr; /* On smaller screens, display footer content in a single column */
+    text-align: center; /* Center align the content */
+  }
+.location{
+  justify-content: center;
+}
+  .footer-container .right {
+    margin-top: 2rem; /* Add some spacing between the two columns in the single column layout */
+  }
+  .left{
+    justify-content: center;
+  }
+.social {
+  justify-content: center;
+}
+.location{
+  justify-content: center;
+}
+  .phone h4,
+  .email h4 {
+    justify-content: center; /* Center align the text in the single column layout */
+  }
 }
