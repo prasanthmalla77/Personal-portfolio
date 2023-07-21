@@ -1,33 +1,61 @@
 import React from "react";
 import "./Footer.css";
-import { FaHome, FaPhone ,FaMailBulk} from "react-icons/fa";
+import {
+  FaHome,
+  FaPhone,
+  FaMailBulk,
+  FaFacebook,
+  FaLinkedin,
+  FaGit,
+} from "react-icons/fa";
 const Footer = () => {
-    
   return (
     <div className="footer">
-      <div className="foooter-container">
+      <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{ color: "white", marginRight: "2rem" }} />
+            <FaHome size={30} style={{ color: "white", marginRight: "2rem" }} />
             <div>
-                <p>1-147,Venkateswara colony,Tekkali</p>
-                <p>Srikakulam,Andhra Pradesh,India </p>
-                <p>532201</p>
+              <p>1-147,Venkateswara colony,Tekkali</p>
+              <p>Srikakulam,Andhra Pradesh,India </p>
+              <p>532201</p>
             </div>
           </div>
           <div className="phone">
-          <FaPhone size={20} style={{ color: "white", marginRight: "2rem" }} />
-            <div>
-                <h4>+91 9491920031</h4>
-            </div>
-
+            <h4>
+              {" "}
+              <FaPhone
+                size={30}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+              +91 9491920031
+            </h4>
           </div>
-          <div className="email">
-          <FaMailBulk size={20} style={{ color: "white", marginRight: "2rem" }} />
-            <div>
-                <h4>prasanthmalla77@gmail.com</h4>
-            </div>
 
+          <div className="email">
+          <h4><FaMailBulk
+              size={30}
+              style={{ color: "white", marginRight: "2rem" }}
+            />
+            
+              prasanthmalla77@gmail.com</h4>
+            
+          </div>
+        </div>
+        <div className="right">
+          <p>1-147,Venkateswara colony,Tekkali</p>
+          <p>Srikakulam,Andhra Pradesh,India </p>
+          <p>532201</p>
+          <div className="social">
+            <FaFacebook
+              size={30}
+              style={{ color: "white", marginRight: "1rem" }}
+            />
+            <FaGit size={30} style={{ color: "white", marginRight: "1rem" }} />
+            <FaLinkedin
+              size={30}
+              style={{ color: "white", marginRight: "1rem" }}
+            />
           </div>
         </div>
       </div>
