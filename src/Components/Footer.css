@@ -43,7 +43,7 @@
   padding-left: 1rem; /* Add padding to separate icon from text */
   line-height: 1.6;
 }
-.phone{
+.phone {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
@@ -54,7 +54,6 @@
   padding-left: 1rem; /* Add padding to separate icon from text */
   line-height: 1.6;
 }
-
 
 .email h4 {
   margin: 0; /* Increase font size for better visibility */
@@ -86,21 +85,21 @@
     grid-template-columns: 1fr; /* On smaller screens, display footer content in a single column */
     text-align: center; /* Center align the content */
   }
-.location{
-  justify-content: center;
-}
+  .location {
+    justify-content: center;
+  }
   .footer-container .right {
     margin-top: 2rem; /* Add some spacing between the two columns in the single column layout */
   }
-  .left{
+  .left {
     justify-content: center;
   }
-.social {
-  justify-content: center;
-}
-.location{
-  justify-content: center;
-}
+  .social {
+    justify-content: center;
+  }
+  .location {
+    justify-content: center;
+  }
   .phone h4,
   .email h4 {
     justify-content: center; /* Center align the text in the single column layout */
