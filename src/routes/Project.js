@@ -3,7 +3,7 @@ import "./Project.css";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import ReactionTesterImage from "../assets/ReactionTester.png"; // Import the PNG image
-
+import Background from "../Components/Background";
 const Projects = () => {
   // Sample project data, replace this with your own project details
   const projects = [
@@ -62,29 +62,36 @@ const Projects = () => {
   return (
     <div>
       <Navbar />
-      <div className="projects">
-        <h2 className="section-title">Projects</h2>
-        <div className="projects-container">
-          {projects.map((project, index) => (
-            <div className="project" key={index}>
-              <img src={project.imageUrl} alt={project.title} />
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <a
-                href={project.projectUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Project
-              </a>
-              <a href={project.Live} target="_blank" rel="noopener noreferrer">
-                Live Project
-              </a>
-            </div>
-          ))}
+      <div>
+        <Background />
+        <div className="projects">
+          <h2 className="section-title">Projects</h2>
+          <div className="projects-container">
+            {projects.map((project, index) => (
+              <div className="project" key={index}>
+                <img src={project.imageUrl} alt={project.title} />
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <a
+                  href={project.projectUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Project
+                </a>
+                <a
+                  href={project.Live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Project
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };
