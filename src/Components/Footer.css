@@ -1,62 +1,59 @@
 /* Footer Container */
 .footer {
-    width: 100%;
-    padding: 4rem 0;
-    background-color: black;
-    color: #fff;
-    /* Adjust font size for better readability */
-  }
-  
-  .footer-container {
-    max-width: 1140px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Equal-width columns */
-    grid-gap: 2rem; /* Reduce the grid gap for better spacing */
-  }
-  
-  .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .location {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  .location p {
-    margin: 0;
-    padding-left: 1rem; /* Add padding to separate icon from text */
-    line-height: 1.6;
-  }
-  
-  .phone h4,
-  .email h4 {
-    margin: 0;/* Increase font size for better visibility */
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .right p {
-    margin: 0;
-    line-height: 1.6;
-  }
-  
-  .social {
-    display: flex;
-    align-items: center;
-    margin-top: 1rem;
-  }
-  
-  
-  
+  width: 100%;
+  padding: 4rem 0;
+  background-color: black;
+  color: #fff;
+  /* Adjust font size for better readability */
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Equal-width columns */
+  grid-gap: 2rem; /* Reduce the grid gap for better spacing */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.location p {
+  margin: 0;
+  padding-left: 1rem; /* Add padding to separate icon from text */
+  line-height: 1.6;
+}
+
+.phone h4,
+.email h4 {
+  margin: 0; /* Increase font size for better visibility */
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}

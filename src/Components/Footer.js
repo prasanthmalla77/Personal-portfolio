@@ -33,13 +33,13 @@ const Footer = () => {
           </div>
 
           <div className="email">
-          <h4><FaMailBulk
-              size={30}
-              style={{ color: "white", marginRight: "2rem" }}
-            />
-            
-              prasanthmalla77@gmail.com</h4>
-            
+            <h4>
+              <FaMailBulk
+                size={30}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+              prasanthmalla77@gmail.com
+            </h4>
           </div>
         </div>
         <div className="right">
