@@ -84,10 +84,9 @@ const Contact = () => {
               Drishya AI Labs
               <br />
               Software Developer Intern
+              
               <br />
-              23/11/2020 - 16/12/2020
-              <br />
-              07/04/2021 - 30/10/2021
+              01/03/2023 -  Present
               <br />
               - As a software developer intern, I had the opportunity to work
               with a variety of technologies, including NPM, React, ReactFlow,
