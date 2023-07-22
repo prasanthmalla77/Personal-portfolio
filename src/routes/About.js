@@ -106,8 +106,9 @@ const About = () => {
               required
             />
           </div>
-          <button type="submit" style={{ background: 'rgb(248, 217, 15)' }}>Submit</button>
-
+          <button type="submit" style={{ background: "rgb(248, 217, 15)" }}>
+            Submit
+          </button>
         </form>
       </div>
       <ToastContainer
