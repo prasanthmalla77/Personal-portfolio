@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="contact-container">
           <div className="left">
             <img
-              src={mine} // Replace with your photo URL
+              src={mine} 
               alt="Your Name"
               className="profile-photo"
             />

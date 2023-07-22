@@ -20,7 +20,6 @@
   grid-gap: 2rem;
 }
 
-/* Individual certificate */
 .certificate {
   padding: 1.5rem;
   border-radius: 5px;
@@ -66,7 +65,7 @@
   background-color: #444;
 }
 
-/* Rotating Effect on Hover */
+
 .certificate:hover {
   transform: rotate(5deg) scale(1.05);
   z-index: 1;
@@ -80,11 +79,10 @@
   transform: translateX(40px);
 }
 
-/* Responsive Styling */
 @media (max-width: 768px) {
   .certificates-container {
     grid-template-columns: 1fr;
-    /* On smaller screens, display certificates in a single column */
+   
   }
 
   .certificate {

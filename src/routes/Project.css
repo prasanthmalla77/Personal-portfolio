@@ -3,7 +3,7 @@
   background-color: black;
 }
 
-/* Section Title */
+
 .section-title {
   text-align: center;
   font-size: 2rem;
@@ -11,7 +11,6 @@
   color: #333;
 }
 
-/* Projects Container */
 .projects-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -20,7 +19,7 @@
   grid-gap: 2rem;
 }
 
-/* Individual Project */
+
 .project {
   padding: 1.5rem;
   border-radius: 5px;
@@ -66,7 +65,7 @@
   background-color: #444;
 }
 
-/* Rotating Effect on Hover */
+
 .project:hover {
   transform: rotate(5deg) scale(1.05);
   z-index: 1;
@@ -80,11 +79,11 @@
   transform: translateX(40px);
 }
 
-/* Responsive Styling */
+
 @media (max-width: 768px) {
   .projects-container {
     grid-template-columns: 1fr;
-    /* On smaller screens, display projects in a single column */
+   
   }
 
   .project {

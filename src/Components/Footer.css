@@ -1,18 +1,18 @@
-/* Footer Container */
+
 .footer {
   width: 100%;
   padding: 4rem 0;
   background-color: black;
   color: #fff;
-  /* Adjust font size for better readability */
+ 
 }
 
 .footer-container {
   max-width: 1140px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Equal-width columns */
-  grid-gap: 2rem; /* Reduce the grid gap for better spacing */
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 2rem; 
 }
 
 .left {
@@ -29,7 +29,7 @@
 
 .email p {
   margin: 0;
-  padding-left: 1rem; /* Add padding to separate icon from text */
+  padding-left: 1rem; 
   line-height: 1.6;
 }
 .location {
@@ -40,7 +40,7 @@
 
 .location p {
   margin: 0;
-  padding-left: 1rem; /* Add padding to separate icon from text */
+  padding-left: 1rem; 
   line-height: 1.6;
 }
 .phone {
@@ -51,12 +51,12 @@
 
 .phone p {
   margin: 0;
-  padding-left: 1rem; /* Add padding to separate icon from text */
+  padding-left: 1rem; 
   line-height: 1.6;
 }
 
 .email h4 {
-  margin: 0; /* Increase font size for better visibility */
+  margin: 0; 
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
@@ -79,17 +79,17 @@
   margin-top: 1rem;
 }
 
-/* Responsive Styling */
+
 @media (max-width: 768px) {
   .footer-container {
-    grid-template-columns: 1fr; /* On smaller screens, display footer content in a single column */
-    text-align: center; /* Center align the content */
+    grid-template-columns: 1fr; 
+    text-align: center; 
   }
   .location {
     justify-content: center;
   }
   .footer-container .right {
-    margin-top: 2rem; /* Add some spacing between the two columns in the single column layout */
+    margin-top: 2rem; 
   }
   .left {
     justify-content: center;
@@ -102,6 +102,6 @@
   }
   .phone h4,
   .email h4 {
-    justify-content: center; /* Center align the text in the single column layout */
+    justify-content: center; 
   }
 }
