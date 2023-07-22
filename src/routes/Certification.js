@@ -64,8 +64,8 @@ const Certification = () => {
     <div>
       <Navbar />
       <div>
-        <Background />
         <div className="certificates">
+          <Background />
           <h2 className="section-title">Certifications</h2>
           <div className="certificates-container">
             {Certifications.map((certificate, index) => (

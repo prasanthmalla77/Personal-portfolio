@@ -69,7 +69,7 @@ const Background = () => {
   }, []);
 
   return (
-    <div className="HeroImg">
+    <div className="HeroImg" style={{ margin: 0, padding: 0 }}>
       <Particles options={options} init={particlesInit} />
     </div>
   );

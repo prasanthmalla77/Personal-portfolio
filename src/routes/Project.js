@@ -67,8 +67,8 @@ const Projects = () => {
     <div>
       <Navbar />
       <div>
-        <Background />
         <div className="projects">
+          <Background />
           <h2 className="section-title">Projects</h2>
           <div className="projects-container">
             {projects.map((project, index) => (

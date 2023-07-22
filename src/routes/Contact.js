@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Contact.css";
 import mine from "../assets/mine.jpg";
-import Navbar from "../Components/Navbar"; // Import the CSS file for styling
+import Navbar from "../Components/Navbar";
+import Background from "../Components/Background";
 
 const Contact = () => {
   const [showText, setShowText] = useState(false);
@@ -19,6 +20,7 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className={`contact-page ${showText ? "show-text" : ""}`}>
+        <Background />
         <div className="contact-container">
           <div className="left">
             <img

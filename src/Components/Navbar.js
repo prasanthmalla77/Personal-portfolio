@@ -16,7 +16,10 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", changeColor);
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div
+      className={color ? "header header-bg" : "header"}
+      style={{ margin: 0 }}
+    >
       <Link to="/">
         <h1>Prasanth Portfolio</h1>
       </Link>
