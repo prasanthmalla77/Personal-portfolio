@@ -70,8 +70,9 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <Background />
+
       <div className="container">
+        <Background />
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
