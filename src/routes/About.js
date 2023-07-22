@@ -67,12 +67,17 @@ const About = () => {
       });
   };
 
+  const handleClearForm = () => {
+    setFormData({ name: "", email: "", message: "" });
+  };
+
   return (
     <div>
       <Navbar />
 
       <div className="container">
         <Background />
+
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
@@ -106,9 +111,23 @@ const About = () => {
               required
             />
           </div>
-          <button type="submit" style={{ background: "rgb(248, 217, 15)" }}>
-            Submit
-          </button>
+          <div>
+            <button
+              className="btn1"
+              type="submit"
+              style={{ background: "rgb(248, 217, 15)" }}
+            >
+              Submit
+            </button>
+            <button
+              className="btn2"
+              type="button"
+              onClick={handleClearForm}
+              style={{ background: "rgb(255, 0, 0)" }}
+            >
+              Clear
+            </button>
+          </div>
         </form>
       </div>
       <ToastContainer
