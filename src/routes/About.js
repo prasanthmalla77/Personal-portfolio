@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
-import './About.css';
-import Background from '../Components/Background';
-import Navbar from '../Components/Navbar';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import React, { useState } from "react";
+import "./About.css";
+import Background from "../Components/Background";
+import Navbar from "../Components/Navbar";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const About = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -18,21 +18,21 @@ const About = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted!');
+    console.log("Form submitted!");
 
-    const formEndpoint = 'https://formspree.io/f/mnqkngnd';
+    const formEndpoint = "https://formspree.io/f/mnqkngnd";
 
     fetch(formEndpoint, {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
     })
       .then((response) => {
         if (response.ok) {
-          toast.success('Form submitted successfully!', {
-            position: 'top-right',
+          toast.success("Form submitted successfully!", {
+            position: "top-right",
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -40,10 +40,10 @@ const About = () => {
             draggable: true,
             progress: undefined,
           });
-          setFormData({ name: '', email: '', message: '' });
+          setFormData({ name: "", email: "", message: "" });
         } else {
-          toast.error('Error submitting form. Please try again.', {
-            position: 'top-right',
+          toast.error("Error submitting form. Please try again.", {
+            position: "top-right",
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -54,9 +54,9 @@ const About = () => {
         }
       })
       .catch((error) => {
-        console.error('Error sending form data:', error);
-        toast.error('Error submitting form. Please try again.', {
-          position: 'top-right',
+        console.error("Error sending form data:", error);
+        toast.error("Error submitting form. Please try again.", {
+          position: "top-right",
           autoClose: 3000,
           hideProgressBar: false,
           closeOnClick: true,
