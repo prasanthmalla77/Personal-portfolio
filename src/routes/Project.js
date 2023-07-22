@@ -4,11 +4,11 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import ReactionTesterImage from "../assets/ReactionTester.png"; // Import the PNG image
 import Background from "../Components/Background";
-import Quote from '../assets/AutomaticQuoteGenerator.png'
+import Quote from "../assets/AutomaticQuoteGenerator.png";
 import StudentFeedbackForm from "../assets/StudentFeedbackForm.png";
 import FatherResume from "../assets/FatherResume.png";
 import Twitter from "../assets/TwitterClone.png";
-import ToDo from '../assets/ToDo.png'
+import ToDo from "../assets/ToDo.png";
 const Projects = () => {
   // Sample project data, replace this with your own project details
   const projects = [

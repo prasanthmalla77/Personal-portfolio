@@ -95,3 +95,82 @@ a:hover {
 .social-links a:hover {
   color: #0056b3;
 }
+/* Mobile Devices (up to 767px) */
+@media (max-width: 767px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .right {
+    margin-top: 2rem;
+  }
+
+  .projects-link {
+    margin-top: 1rem;
+  }
+}
+
+/* Tablets and Small Laptops (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .right {
+    margin-top: 2rem;
+  }
+
+  .projects-link {
+    margin-top: 1rem;
+  }
+}
+
+/* Medium and Large Laptops (1024px to 1439px) */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .right {
+    margin-top: 2rem;
+  }
+
+  .projects-link {
+    margin-top: 1rem;
+  }
+}
+
+/* Extra Large Laptops and Desktops (1440px and above) */
+@media (min-width: 1440px) {
+  .contact-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .profile-photo {
+    width: 220px;
+    height: 220px;
+  }
+
+  .right {
+    margin-top: 0;
+  }
+
+  .projects-link {
+    margin-top: 2rem;
+  }
+}

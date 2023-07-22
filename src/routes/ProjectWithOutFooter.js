@@ -4,8 +4,8 @@ import ReactionTesterImage from "../assets/ReactionTester.png";
 import StudentFeedbackForm from "../assets/StudentFeedbackForm.png";
 import FatherResume from "../assets/FatherResume.png";
 import Twitter from "../assets/TwitterClone.png";
-import ToDo from '../assets/ToDo.png'
-import Quote from '../assets/AutomaticQuoteGenerator.png'
+import ToDo from "../assets/ToDo.png";
+import Quote from "../assets/AutomaticQuoteGenerator.png";
 const ProjectWithOutFooter = () => {
   // Sample project data, replace this with your own project details
   const projects = [
@@ -61,32 +61,30 @@ const ProjectWithOutFooter = () => {
   ];
 
   return (
-  
-      <div className="projects">
-        <h2 className="section-title">Projects</h2>
-        <div className="projects-container">
-          {projects.map((project, index) => (
-            <div className="project" key={index}>
-              <img src={project.imageUrl} alt={project.title} />
-              <b>
-                <h3>{project.title}</h3>
-              </b>
-              <p>{project.description}</p>
-              <a
-                href={project.projectUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Project
-              </a>
-              <a href={project.Live} target="_blank" rel="noopener noreferrer">
-                Live Link
-              </a>
-            </div>
-          ))}
-        </div>
+    <div className="projects">
+      <h2 className="section-title">Projects</h2>
+      <div className="projects-container">
+        {projects.map((project, index) => (
+          <div className="project" key={index}>
+            <img src={project.imageUrl} alt={project.title} />
+            <b>
+              <h3>{project.title}</h3>
+            </b>
+            <p>{project.description}</p>
+            <a
+              href={project.projectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+            <a href={project.Live} target="_blank" rel="noopener noreferrer">
+              Live Link
+            </a>
+          </div>
+        ))}
       </div>
-  
+    </div>
   );
 };
 
