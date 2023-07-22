@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import Home from "./routes/Home";
-// import About from "./routes/About";
+import About from "./routes/About";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 import Certification from "./routes/Certification";
@@ -14,6 +14,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/certification" element={<Certification />} />
         <Route path="/about" element={<Contact />} />
+        <Route path="/contact" element={<About />} />
       </Routes>
     </>
   );
