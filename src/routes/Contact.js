@@ -1,25 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Contact.css";
 import mine from "../assets/mine.jpg";
 import Navbar from "../Components/Navbar";
 import Background from "../Components/Background";
 
 const Contact = () => {
-  const [showText, setShowText] = useState(false);
-
-  useEffect(() => {
-    // Simulate the typing effect after the component mounts
-    const timer = setTimeout(() => {
-      setShowText(true);
-    }, 1000);
-
-    return () => clearTimeout(timer); // Cleanup the timer when the component unmounts
-  }, []);
+  
 
   return (
     <div>
       <Navbar />
-      <div className={`contact-page ${showText ? "show-text" : ""}`}>
+      <div className="contact-page show-text">
         <Background />
         <div className="contact-container">
           <div className="left">

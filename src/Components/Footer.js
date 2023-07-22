@@ -40,9 +40,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <p>1-147,Venkateswara colony,Tekkali</p>
-          <p>Srikakulam,Andhra Pradesh,India </p>
-          <p>532201</p>
+          <p>Malla Naga Venkata Prasanth Naidu</p>
+          <p>JNTUGV</p>
+          <p>Vizianagaram</p>
           <div className="social">
             <a href={facebookLink} target="_blank" rel="noopener noreferrer">
               <FaFacebook
