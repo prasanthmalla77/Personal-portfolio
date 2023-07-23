@@ -6,6 +6,7 @@ import FatherResume from "../assets/FatherResume.png";
 import Twitter from "../assets/TwitterClone.png";
 import ToDo from "../assets/ToDo.png";
 import Quote from "../assets/AutomaticQuoteGenerator.png";
+import Background from "../Components/Background";
 const ProjectWithOutFooter = () => {
  
   const projects = [
@@ -61,6 +62,8 @@ const ProjectWithOutFooter = () => {
   ];
 
   return (
+    <div>
+    <Background/>
     <div className="projects">
       <h2 className="section-title">Projects</h2>
       <div className="projects-container">
@@ -84,7 +87,7 @@ const ProjectWithOutFooter = () => {
           </div>
         ))}
       </div>
-    </div>
+    </div></div>
   );
 };
 
